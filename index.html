@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Shade-Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/fevicon.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@400;500;600&family=Rajdhani:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation with Logo Only (No Text) -->
+    <nav>
+        <div class="container">
+            <div class="logo-img">
+                <img src="img/profile.png" alt="Shade Logo">
+            </div>
+            <!-- No logo text - only image -->
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul id="navMenu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-background">
+            <div class="bg-slide active"></div>
+            <div class="bg-slide"></div>
+            <div class="bg-slide"></div>
+            <div class="bg-slide"></div>
+            <div class="bg-slide"></div>
+            <div class="bg-slide"></div>
+        </div>
+        <div class="container">
+            <div class="section-content">
+                <div class="profile-circle">
+                    <img src="img/profile.png" alt="Shade Profile">
+                </div>
+                <h1 class="hero-title">HI, I'm <span class="name gradient-text">Shade</span></h1>
+                <p class="hero-subtitle">I'm a <span class="typing-text"></span><span class="cursor">|</span></p>
+                <p class="hero-description">
+                    I’m a passionate 3D Artist, Game Developer, and UI/UX Designer focused on creating immersive and visually engaging digital experiences.
+                     I work with Unreal Engine 5 and Blender to build detailed environments, realistic assets, and cinematic scenes for games and interactive projects.
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_shade__studio_/" class="social-icon" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sivaraj-r-86410b2a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/about-me.png" alt="Shade">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+I’m a passionate Environment Designer and UI/UX Designer focused on creating immersive game worlds and user-friendly mobile app experiences. I enjoy designing detailed environments, engaging level layouts, and clean mobile interfaces that feel smooth, modern, and easy to use, with the goal of delivering creative and polished designs that leave a lasting impact.<br><br>
+With skills in UI/UX Design, Frontend Development, Environment Design, Graphic Design, and 3D Art, I combine creativity with technical knowledge to bring ideas to life using tools like Unreal Engine, Blender, Figma, and Photoshop. I’m especially passionate about game level design, where I create balanced, visually rich spaces that guide players naturally through exploration and challenges.
+ I continuously improve my workflow, learn new techniques, and stay updated with modern design trends to grow as a designer. My dream is to become a Professional  Designer and Top-Level Designer, contributing to meaningful projects and building interactive experiences that feel exciting, immersive, and memorable.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Skills Ticker Animation -->
+            <div class="skills-ticker-container">
+                <div class="skills-ticker">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/ue.png">
+                            <h3>Unreal Engine</h3>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/blender.png">
+                            <h3>Blender</h3>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/c++.png">
+                            <h3>C++</h3>
+                            <div class="skill-level">Basics</div>
+                        </div>
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/figma.png">
+                            <h3>Figma</h3>
+                            <div class="skill-level">Expert</div>
+                        </div>
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/ps.png">
+                            <h3>Photoshop</h3>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/ai.png">
+                            <h3>Illustrator</h3>
+                            <div class="skill-level">Basics</div>
+                        </div>
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/html.png">
+                            <h3>HTML 5</h3>
+                            <div class="skill-level">Expert</div>
+                        </div>
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/css.png">
+                            <h3>CSS</h3>
+                            <div class="skill-level">Expert</div>
+                        </div>       
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/js.png">
+                            <h3>Java Script</h3>
+                            <div class="skill-level">Intermediate</div>
+                        </div>               
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/react.png">
+                            <h3>React</h3>
+                            <div class="skill-level">Basics</div>
+                        </div>    
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/tailwindcss.png">
+                            <h3>Tailwind CSS</h3>
+                            <div class="skill-level">Intermediate</div>
+                        </div>    
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/python.png">
+                            <h3>Python</h3>
+                            <div class="skill-level">Intermediate</div>
+                        </div>                       
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/affinity.png">
+                            <h3>Affinity</h3>
+                            <div class="skill-level">Basics</div>
+                        </div>
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/canva.png">
+                            <h3>Canva</h3>
+                            <div class="skill-level">Expert</div>
+                        </div>
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/davinci.png">
+                            <h3>Davinci</h3>
+                            <div class="skill-level">Intermediate</div>
+                        </div>
+                        <div class="skill-card">
+                           <img class="skill-image" src="img/skills/substance-painter.png">
+                            <h3>Substance Pt</h3>
+                            <div class="skill-level">Basics</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Projects Section with Popup -->
+    <section id="projects">
+        <div class="container">
+            <div class="projects-header">
+                <h2 class="section-title centered">My Projects</h2>
+                <p>Explore my creative journey through these handpicked projects that showcase my skills in Game
+                    Level Design, UI/UX Design,Graphic Design and 3D Art.</p>
+            </div>
+
+            <div class="project-grid">
+                <div class="project-card" data-project="1">
+                    <img src="img/project/UI-1.png" alt="UI/UX Project">
+                    <div class="project-overlay">
+                        <div class="project-category">UI Design</div>
+                        <h3 class="project-name">Mobile Banking App</h3>
+                        <button class="project-view-btn">
+                            View Project
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="2">
+                    <img src="img/project/UI-2.png" alt="UI/UX Project">
+                    <div class="project-overlay">
+                        <div class="project-category">UI Design</div>
+                        <h3 class="project-name">Betting App</h3>
+                        <button class="project-view-btn">
+                            View Project
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="3">
+                    <img src="img/project/UI-3.png" alt="Food-Delivery-App">
+                    <div class="project-overlay">
+                        <div class="project-category">UI Design</div>
+                        <h3 class="project-name">Food Delivery App</h3>
+                        <button class="project-view-btn">
+                            View Project
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="4">
+                    <img src="img/project/UI-4.png" alt="dashboard">
+                    <div class="project-overlay">
+                        <div class="project-category">UI Design</div>
+                        <h3 class="project-name">SAAS Dashboard</h3>
+                        <button class="project-view-btn">
+                            View Project
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="5">
+                    <img src="img/project/burger.png" alt="burger">
+                    <div class="project-overlay">
+                        <div class="project-category">Graphic Design</div>
+                        <h3 class="project-name">Burger Add</h3>
+                        <button class="project-view-btn">
+                            View Project
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="6">
+                    <img src="img/project/perfume.png" alt="perfume">
+                    <div class="project-overlay">
+                        <div class="project-category">Graphic Design</div>
+                        <h3 class="project-name">Perfume Add</h3>
+                        <button class="project-view-btn">
+                            View Project
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container contact-container">
+            <div class="contact-left">
+                <h2 class="section-title">Contact Me</h2>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Name" class="form-input" required aria-label="Your Name"
+                        id="contactName">
+                    <input type="email" placeholder="Mail Address" class="form-input" required aria-label="Your Email"
+                        id="contactEmail">
+                    <textarea placeholder="Message" class="form-textarea" rows="6" required aria-label="Your Message"
+                        id="contactMessage"></textarea>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <div id="game-container">
+                    <!-- Game start overlay -->
+                    <div id="game-start-overlay">
+                        <div class="start-game-thumbnail">
+                            <img src="img/profile.png" alt="Start Game">
+                        </div>
+                        <h2 class="start-game-title">Flappy Game</h2>
+                        <button class="start-game-btn" id="startGameBtn">Start Game</button>
+                    </div>
+
+                    <canvas id="gameCanvas"></canvas>
+                    <div id="game-over" class="hidden">
+                        <h3>Game Over!</h3>
+                        <p>Score: <span id="final-score">0</span></p>
+                        <button id="restart-btn">Restart</button>
+                    </div>
+                    <div id="game-ui">
+                        <div id="score">Score: 0</div>
+                        <div id="instructions">Press SPACE or Click to Jump</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Footer (3 Columns) -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <!-- Column 1: Logo & Summary -->
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="footer-logo-img">
+                            <img src="img/profile.png" alt="Shade Logo">
+                        </div>
+                        <div class="footer-logo-text gradient-text">SHADE</div>
+                    </div>
+                    <p class="footer-description">
+                        A passionate game developer and designer specializing in creating immersive environments,
+                        stunning UI/UX, and interactive experiences. Bringing digital worlds to life with code and
+                        creativity.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Pages Links -->
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About Me</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Column 3: Contact Information -->
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Contact Info</h3>
+                    <div class="footer-contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">shade@portfolio.dev</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">+1 (555) 123-4567</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">San Francisco, CA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <p>&copy; 2024 Shade. All rights reserved. | Game Developer Portfolio</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Up Button -->
+    <div class="scroll-up" id="scrollUp" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <!-- Updated Project Popup Modal (Media Only) -->
+    <div class="project-popup" id="projectPopup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <div>
+                    <div class="popup-category" id="popupCategory">Environment Design</div>
+                    <h2 class="popup-title" id="popupTitle">Cyberpunk City 2088</h2>
+                </div>
+                <button class="close-popup" id="closePopup">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="popup-body">
+                <div class="popup-media">
+                    <!-- Image will be inserted here -->
+                    <img id="popupImage" src="" alt="Project Image">
+                    <!-- Video element (hidden by default) -->
+                    <video id="popupVideo" controls style="display: none;">
+                        <source src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="media-controls">
+                        <button class="media-btn" id="playVideo">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button class="media-btn" id="pauseVideo" style="display: none;">
+                            <i class="fas fa-pause"></i>
+                        </button>
+                        <button class="media-btn" id="fullscreen">
+                            <i class="fas fa-expand"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Removed popup-info div as requested -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
